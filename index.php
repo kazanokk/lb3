@@ -8,9 +8,10 @@
 </head>
 <body>
     <form action="get_1.php" method="get">
+    <label for="wardName">Select nurse:</label>
         <select name="nurseName" id="nurseName">
             <?php
-
+            <label for="wardName">Select nurse:</label>
             include('connect.php');
 
             $sqlSelect = "SELECT name FROM nurse";
